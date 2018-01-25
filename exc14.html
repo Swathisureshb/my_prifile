@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick=abc() onmouseover="changecolor(this)" onmouseout="change(this)">java</button>
+    <p id="demo"></p>
+    <script>
+    function  changecolor(x)
+    {
+        x.style.color="blue";
+    }
+    function change(y)
+    {
+        y.style.color="black";
+
+    }
+    function abc()
+    {
+        document.getElementById("demo").innerHTML="welcome to java";
+    }
+    </script>
+</body>
+</html>

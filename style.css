@@ -1,0 +1,32 @@
+p
+{
+    text-align:center;
+    color:red;
+}
+body{
+background-image:url("images (3).jpg");
+background-repeat:no-repeat;
+background-size:2000px;
+}
+h1{
+    color:red;
+   text-align:center;
+}
+img
+{
+border-radius:40px;
+}
+
+li{
+    margin:16px;
+    text-align: center;
+    list-style-type: none;
+    color:red;
+    display:inline;
+    
+    
+}
+#demo{
+    color:blue;
+   font-size:30px;
+}
